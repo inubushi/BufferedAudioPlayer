@@ -1,0 +1,710 @@
+TBufferedAudioPlayer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist" BufferedAudioPlayer-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist
+cCompileXIB "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib"
+cCompileXIB "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib"
+cCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png" Default-568h@2x.png
+cCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png" logoSmall.png
+cCpResource mayim_mayim.wav build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav
+cCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png" logoRetina.png
+cCpResource midnight-ride.wav build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav
+cProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer" normal armv7s
+cLd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer" normal armv7
+cCreateUniversalBinary "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer" normal "armv7 armv7s"
+cGenerateDSYMFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer"
+cProcessProductPackaging "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision"
+cTouch "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent"
+cCodeSign "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506D3F590000000000000094
+t1349336921
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506D3F590000000000000096
+t1349336921
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506D3F5B0000000000322740
+t1349336923
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506D3F5B0000000000629C80
+t1349336923
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506D3F5B00000000000015F7
+t1349336923
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506D3F5B0000000000000E8D
+t1349336923
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506D3F5D00000000011BA850
+t1349336925
+s18589776
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000507D06BE00000000003AA4D0
+t1350371006
+s3843280
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000507D06BE00000000001195D0
+t1350371006
+s1152464
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch
+c000000004A74DB0300000000000000B7
+t1249172227
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m
+c0000000050FCB1BD0000000000002A1E
+t1358737853
+s10782
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m
+c00000000510F698E00000000000038C5
+t1359964558
+s14533
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m
+c00000000510F69A8000000000000067E
+t1359964584
+s1662
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m
+c0000000050F8DB770000000000000772
+t1358486391
+s1906
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c
+c0000000050CA4E90000000000000121A
+t1355435664
+s4634
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Default-568h@2x.png
+c0000000050660F4200000000000048A2
+t1348865858
+s18594
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib
+c0000000050F8E30E0000000000002D30
+t1358488334
+s11568
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib
+c0000000050F910C700000000000029A5
+t1358500039
+s10661
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer.LinkFileList
+c00000000510F69A800000000000003FB
+t1359964584
+s1019
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer.LinkFileList
+c00000000510F69A80000000000000401
+t1359964584
+s1025
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/MainWindow.nib
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/OneNodeViewController.nib
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/PkgInfo
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav
+t2
+s0
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/logoRetina.png
+c0000000050F8D6D80000000000004C50
+t1358485208
+s19536
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/logoSmall.png
+c0000000050F8D6EA00000000000029FD
+t1358485226
+s10749
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m
+c0000000050F8DC6800000000000001B4
+t1358486632
+s436
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/mayim_mayim.wav
+c0000000050F8E84100000000007D1AD6
+t1358489665
+s8198870
+
+N/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/midnight-ride.wav
+c0000000050F90EF000000000014C4C2C
+t1358499568
+s21777452
+
+N/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision
+c000000005084BBF70000000000007589
+t1350876151
+s30089
+
+N/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth
+t2
+s0
+
+NBufferedAudioPlayer-Info.plist
+c0000000050F8DF97000000000000054B
+t1358487447
+s1355
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m"
+r0
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m"
+r0
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m"
+r0
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m"
+r0
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c"
+r0
+
+CBuild AST from "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc7bb7f28a1bfb641^39429a28a1bfb641^---0#1#0#--18"Check dependencies36"74E488B5-199C-49F4-9F1C-5E4715071D5A-
+
+CCodeSign "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"
+s381657385.788239
+e381657386.697908
+r1
+xCodeSign
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign build/Release-iphoneos/BufferedAudioPlayer.app79e6c929a1bfb641^04abb22aa1bfb641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/0000000000000000^944"CodeSign build/Release-iphoneos/BufferedAudioPlayer.app    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign fbc00c6a505d8ac4689bec0dcdf7597f3727736d "--resource-rules=/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist" --entitlements "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"36"8BDC56E4-C993-4039-B984-FFE87C40E3AE-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.515470
+e381657385.610318
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m3f1c8429a1bfb641^bc3d9c29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/AudioPlayback.m0000000000000000^3921"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o Classes/AudioPlayback.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/AudioPlayback.o"36"32A60F85-352E-4C90-B36B-DF9E26C29251-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.539490
+e381657385.649689
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.mdc4b8a29a1bfb641^5952a629a1bfb641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m0000000000000000^3945"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o Classes/InMemoryAudioFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/InMemoryAudioFile.o"36"D51058F6-C097-4AC5-9EFC-6875E380388F-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.512389
+e381657385.632584
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m6c5c8329a1bfb641^d0f1a129a1bfb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m0000000000000000^3951"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o Classes/OneNodeAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeAppDelegate.o"36"FBCCAEDD-07DB-46B5-8ED3-3A25E82248BA-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.512927
+e381657385.626136
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m96798329a1bfb641^734aa029a1bfb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m0000000000000000^3969"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o Classes/OneNodeViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/OneNodeViewController.o"36"4C4F4BA6-5BF0-49CB-87A7-E87BF4EABAF3-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.256977
+e381657385.309963
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c7ee54129a1bfb641^5b5c4f29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c0000000000000000^3593"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o Classes/TPCircularBuffer.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/TPCircularBuffer.o"36"A5472929-8FC1-488F-9EA8-1B83426588BB-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.512459
+e381657385.538128
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m4b5c8329a1bfb641^8fc28929a1bfb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/main.m0000000000000000^3851"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/main.o"36"135347D2-3B5A-4DAD-B06F-CF63DA02F718-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.495625
+e381657385.587870
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m7ffb7e29a1bfb641^847e9629a1bfb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/AudioPlayback.m0000000000000000^3928"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o Classes/AudioPlayback.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/AudioPlayback.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/AudioPlayback.o"36"F5F96EF5-651E-4021-889D-D26CDF87E4D9-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.495640
+e381657385.617588
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m54fd7e29a1bfb641^664f9e29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m0000000000000000^3952"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o Classes/InMemoryAudioFile.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/InMemoryAudioFile.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/InMemoryAudioFile.o"36"0C067467-2F88-4B13-8733-55E1D9BB5D44-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.494086
+e381657385.609944
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m92967e29a1bfb641^e6249c29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m0000000000000000^3958"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o Classes/OneNodeAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeAppDelegate.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeAppDelegate.o"36"38765FFA-0B85-4B04-B137-4D481E102D95-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.494614
+e381657385.600772
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m1cb57e29a1bfb641^32cc9929a1bfb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m0000000000000000^3976"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o Classes/OneNodeViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/OneNodeViewController.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/OneNodeViewController.o"36"F724C3D6-33FC-4AF8-8EF1-53AF31A08769-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.257889
+e381657385.320813
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c35244229a1bfb641^2d225229a1bfb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c0000000000000000^3600"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o Classes/TPCircularBuffer.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Classes/TPCircularBuffer.c" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/TPCircularBuffer.o"36"E3D9DE0B-D1F0-4834-896A-6650609E6105-
+
+CCompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.494041
+e381657385.514196
+r1
+xCompileC
+xbuild/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.mff947e29a1bfb641^16a28329a1bfb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/main.m0000000000000000^3858"CompileC build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -include /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch -MMD -MT dependencies -MF "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.d" --serialize-diagnostics "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.dia" -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/main.m" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/main.o"36"285AE1A5-C310-44F7-95E8-D2C3FFF75007-
+
+CCompileXIB "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib"
+s381657384.638426
+e381657384.658866
+r1
+xCompileXIB
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib:10: warning: Hides Bottom Bar When Pushed is not available prior to Xcode 4.2. [5]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compiling /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xibe885a328a1bfb641^08b0a828a1bfb641^-40"/* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@65"Hides Bottom Bar When Pushed is not available prior to Xcode 4.2.-381657384#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@88"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/MainWindow.xib0000000000000000^9#18446744073709551615#9#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--0#0#0#-19%DVTDocumentLocation4@88"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/MainWindow.xib0000000000000000^857"CompileXIB MainWindow.xib    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/MainWindow.nib" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/MainWindow.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"C074BF5E-36E5-403D-8AB3-C61F129F1302-
+
+CCompileXIB "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib"
+s381657384.638425
+e381657385.226497
+r1
+xCompileXIB
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib
+o2013-02-04 16:56:25.168 Interface Builder Cocoa Touch Tool[1523:14603] CFPreferences: user home directory at file://localhost/Users/chamin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib8385a328a1bfb641^f4fc3929a1bfb641^-240"2013-02-04 16:56:25.168 Interface Builder Cocoa Touch Tool[1523:14603] CFPreferences: user home directory at file://localhost/Users/chamin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/OneNodeViewController.xib0000000000000000^890"CompileXIB OneNodeViewController.xib    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/OneNodeViewController.nib" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/OneNodeViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"0085D98F-5429-404F-981D-CF16A6EC4512-
+
+CCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png" Default-568h@2x.png
+s381657384.638432
+e381657384.745099
+r1
+xCopyPNGFile
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png Default-568h@2x.png2b86a328a1bfb641^44bfbe28a1bfb641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/Default-568h@2x.png0000000000000000^673"CopyPNGFile "build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png" "Default-568h@2x.png"    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/Default-568h@2x.png" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Default-568h@2x.png"36"84A91E30-0535-4BFC-880B-8814E0FBAE1F-
+
+CCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png" logoRetina.png
+s381657384.638656
+e381657384.700477
+r1
+xCopyPNGFile
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png
+xlogoRetina.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png logoRetina.png6893a328a1bfb641^6552b328a1bfb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/logoRetina.png0000000000000000^649"CopyPNGFile build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png logoRetina.png    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/logoRetina.png" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoRetina.png"36"FB7F1747-BF50-4983-A108-46FDC9647322-
+
+CCopyPNGFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png" logoSmall.png
+s381657384.638446
+e381657384.677173
+r1
+xCopyPNGFile
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png
+xlogoSmall.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png logoSmall.pngcf87a328a1bfb641^9a5bad28a1bfb641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/logoSmall.png0000000000000000^645"CopyPNGFile build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png logoSmall.png    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/logoSmall.png" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/logoSmall.png"36"C297D51C-8E3F-4B9F-A1AC-04F1EA313752-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist
+s381657384.625730
+e381657384.628144
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plistc443a028a1bfb641^23f3a028a1bfb641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist000000000080d041^918"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"36"41D7A7F4-FA15-469A-A6EF-649ECB08E697-
+
+CCpResource mayim_mayim.wav build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav
+s381657384.638650
+e381657384.781930
+r1
+xCpResource
+xmayim_mayim.wav
+xbuild/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav8291a328a1bfb641^992ec828a1bfb641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav000000000080d041^760"CpResource mayim_mayim.wav build/Release-iphoneos/BufferedAudioPlayer.app/mayim_mayim.wav    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/mayim_mayim.wav" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"36"F6CCF1A5-9886-4205-BF98-0FA74FF587C4-
+
+CCpResource midnight-ride.wav build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav
+s381657384.638730
+e381657385.145512
+r1
+xCpResource
+xmidnight-ride.wav
+xbuild/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav2d95a328a1bfb641^20412529a1bfb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav000000000080d041^766"CpResource midnight-ride.wav build/Release-iphoneos/BufferedAudioPlayer.app/midnight-ride.wav    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/midnight-ride.wav" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"36"42BFBE86-AE51-4637-995B-CB65AC7FDFD5-
+
+CCreateUniversalBinary "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer" normal "armv7 armv7s"
+s381657385.685312
+e381657385.690559
+r1
+xCreateUniversalBinary
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Create universal binary /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayercf87af29a1bfb641^e6cab029a1bfb641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer000000000080d041^863"CreateUniversalBinary build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer normal "armv7 armv7s"    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer" -output "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer"36"802C0985-D465-43B6-A819-04D941BF75B6-
+
+CGenerateDSYMFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer"
+s381657385.698417
+e381657385.726095
+r1
+xGenerateDSYMFile
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Generating /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYMcbf5b229a1bfb641^3be1b929a1bfb641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM000000000080d041^727"GenerateDSYMFile build/Release-iphoneos/BufferedAudioPlayer.app.dSYM build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/BufferedAudioPlayer" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app.dSYM"36"C3B91401-C21B-4CC9-8FA0-74985E7A25CD-
+
+CLd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer" normal armv7
+s381657385.656582
+e381657385.677783
+r1
+xLd
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Link /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayera228a829a1bfb641^6283ad29a1bfb641^---0#0#0#--1355"Ld build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer normal armv7    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -filelist "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer.LinkFileList" -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AudioToolbox -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7/BufferedAudioPlayer"36"289E74D6-4C01-467F-8B0A-8D8E233ACBC7-
+
+CLd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer" normal armv7s
+s381657385.625990
+e381657385.647704
+r1
+xLd
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection177"Link /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer105da029a1bfb641^42d0a529a1bfb641^---0#0#0#--1360"Ld build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer normal armv7s    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" -filelist "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer.LinkFileList" -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AudioToolbox -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/Objects-normal/armv7s/BufferedAudioPlayer"36"80887193-08EF-450E-A2AD-B94CDD1594ED-
+
+CProcessInfoPlistFile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist" BufferedAudioPlayer-Info.plist
+s381657384.625710
+e381657384.629744
+r1
+xProcessInfoPlistFile
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist
+xBufferedAudioPlayer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process BufferedAudioPlayer-Info.plist8143a028a1bfb641^5d37a128a1bfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/BufferedAudioPlayer-Info.plist0000000000000000^866"ProcessInfoPlistFile build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist BufferedAudioPlayer-Info.plist    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BufferedAudioPlayer-Info.plist -genpkginfo "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/ResourceRules.plist" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/Info.plist"36"324F908C-F173-45A0-992B-56EE5C5CBE1F-
+
+CProcessPCH "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/DerivedData/BufferedAudioPlayer/Index/PrecompiledHeaders/BufferedAudioPlayer_Prefix-dtlkdvdfnpypydalrrwwbgpajwpx_ast/BufferedAudioPlayer_Prefix.pch.pth" BufferedAudioPlayer_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/DerivedData/BufferedAudioPlayer/Index/PrecompiledHeaders/BufferedAudioPlayer_Prefix-ejzvgtyutsnrkdahpppihiuqnugn_ast/BufferedAudioPlayer_Prefix.pch.pth" BufferedAudioPlayer_Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/DerivedData/BufferedAudioPlayer/Index/PrecompiledHeaders/BufferedAudioPlayer_Prefix-fliqvvynmkmffncebwhcgpckfakh_ast/BufferedAudioPlayer_Prefix.pch.pth" BufferedAudioPlayer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/DerivedData/BufferedAudioPlayer/Index/PrecompiledHeaders/BufferedAudioPlayer_Prefix-hesaiuiwkhxoehffhoblrjsifpsb_ast/BufferedAudioPlayer_Prefix.pch.pth" BufferedAudioPlayer_Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.235213
+e381657385.505473
+r1
+xProcessPCH
+x/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth
+xBufferedAudioPlayer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile BufferedAudioPlayer_Prefix.pchb35e3c29a1bfb641^9d668129a1bfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch0000000000000000^3868"ProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" --serialize-diagnostics /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.dia -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch" -o /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-bqoliwmmdpzshieiaruwbtjonuns/BufferedAudioPlayer_Prefix.pch.d36"EA32F764-7ADC-4F01-818A-9F04E67436A9-
+
+CProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.235819
+e381657385.487036
+r1
+xProcessPCH
+x/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth
+xBufferedAudioPlayer_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile BufferedAudioPlayer_Prefix.pch51883c29a1bfb641^8eb07c29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch0000000000000000^3871"ProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" --serialize-diagnostics /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.dia -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch" -o /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-curlqskdekfhfpdgbcspejkvqxix/BufferedAudioPlayer_Prefix.pch.d36"1BB399EB-D9A5-4ECF-A4B3-C912666F0000-
+
+CProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.235210
+e381657385.250245
+r1
+xProcessPCH
+x/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth
+xBufferedAudioPlayer_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile BufferedAudioPlayer_Prefix.pchd95d3c29a1bfb641^6c214029a1bfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch0000000000000000^3522"ProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" --serialize-diagnostics /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.dia -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch" -o /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-drkqsfjijftdaiemxtpzzjpbggkd/BufferedAudioPlayer_Prefix.pch.d36"39907AB5-B578-403A-8140-4472E9A22028-
+
+CProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+s381657385.235835
+e381657385.251504
+r1
+xProcessPCH
+x/var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth
+xBufferedAudioPlayer_Prefix.pch
+xnormal
+xarmv7s
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile BufferedAudioPlayer_Prefix.pchae823c29a1bfb641^80624029a1bfb641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch0000000000000000^3525"ProcessPCH /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth BufferedAudioPlayer_Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-generated-files.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-own-target-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-all-target-headers.hmap" -iquote "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer-project-headers.hmap" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources/armv7s" "-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/DerivedSources" "-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos" --serialize-diagnostics /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.dia -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch" -o /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/yx/b160hxx96n526zz9qdlt1lqr0000gq/C/com.apple.Xcode.503/SharedPrecompiledHeaders/BufferedAudioPlayer_Prefix-floazrzpgdbepbdzhratauudsdeh/BufferedAudioPlayer_Prefix.pch.d36"877D7B61-ACDA-4390-8EC5-264CBCD812E7-
+
+CProcessProductPackaging "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision"
+s381657385.746645
+e381657385.749747
+r1
+xProcessProductPackaging
+x/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision8b32bf29a1bfb641^9eefbf29a1bfb641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision0000000000000000^742"ProcessProductPackaging "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/chamin/Library/MobileDevice/Provisioning Profiles/66137C2A-242A-42A7-B11C-F35E2B86D6DE.mobileprovision" -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app/embedded.mobileprovision"36"9C4F896B-E6DF-4DBD-AC51-802F0A6DF2CD-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent"
+s381657385.775949
+e381657385.779932
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent37c2c629a1bfb641^b0a9c729a1bfb641^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/chamin/Documents/iPhone%20Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent000000000080d041^844"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/BufferedAudioPlayer.build/Release-iphoneos/BufferedAudioPlayer.build/BufferedAudioPlayer.xcent"36"7C99773F-A45D-4EA8-BC1E-8E54C2E57C6C-
+
+CTouch "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"
+s381657385.758857
+e381657385.766391
+r1
+xTouch
+x/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Touch /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.appf564c229a1bfb641^5133c429a1bfb641^---0#0#0#--433"Touch build/Release-iphoneos/BufferedAudioPlayer.app    cd "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/BufferedAudioPlayer.app"36"BB2877BE-7445-4454-9BA1-9D0713B83904-
+

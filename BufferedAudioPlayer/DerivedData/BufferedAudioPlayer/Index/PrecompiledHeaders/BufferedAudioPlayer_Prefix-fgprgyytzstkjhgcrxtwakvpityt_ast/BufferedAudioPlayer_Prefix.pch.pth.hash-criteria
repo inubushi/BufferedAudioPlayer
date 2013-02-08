@@ -1,0 +1,28 @@
+Contents of /Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/BufferedAudioPlayer_Prefix.pch
+4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+arm-apple-darwin11.4.2
+-x
+c
+-arch
+armv7s
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+-g
+-fvisibility=hidden
+-miphoneos-version-min=6.0
+-iquote
+-iquote
+-I/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer/build/Release-iphoneos
+-ferror-limit=10
+-working-directory=/Users/chamin/Documents/iPhone Apps/BufferedAudioPlayer
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=10A403

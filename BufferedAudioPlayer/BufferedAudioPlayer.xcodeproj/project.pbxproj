@@ -21,7 +21,6 @@
 		7E1E50AE16A90E94000C8324 /* logoSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E50AD16A90E94000C8324 /* logoSmall.png */; };
 		7E1E50B116A90E9F000C8324 /* logoRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E50B016A90E9F000C8324 /* logoRetina.png */; };
 		7E1E50B316A9200D000C8324 /* mayim_mayim.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E50B216A9200D000C8324 /* mayim_mayim.wav */; };
-		7E2EF84216A946B30000C305 /* midnight-ride.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E2EF84116A946B30000C305 /* midnight-ride.wav */; };
 		A22CFE3A10251297005E3D56 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22CFE3910251297005E3D56 /* CoreAudio.framework */; };
 		A22CFE5810251360005E3D56 /* AudioPlayback.m in Sources */ = {isa = PBXBuildFile; fileRef = A22CFE5710251360005E3D56 /* AudioPlayback.m */; };
 		A22CFE7C10251683005E3D56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22CFE7B10251683005E3D56 /* AudioToolbox.framework */; };
@@ -48,7 +47,6 @@
 		7E1E50AD16A90E94000C8324 /* logoSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoSmall.png; sourceTree = "<group>"; };
 		7E1E50B016A90E9F000C8324 /* logoRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoRetina.png; sourceTree = "<group>"; };
 		7E1E50B216A9200D000C8324 /* mayim_mayim.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mayim_mayim.wav; sourceTree = "<group>"; };
-		7E2EF84116A946B30000C305 /* midnight-ride.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "midnight-ride.wav"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BufferedAudioPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BufferedAudioPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A22CFE3910251297005E3D56 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		A22CFE5610251360005E3D56 /* AudioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayback.h; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				7E15553C16C2524D00989E88 /* midnight-ride.mp3 */,
-				7E2EF84116A946B30000C305 /* midnight-ride.wav */,
 				7E1E50B216A9200D000C8324 /* mayim_mayim.wav */,
 				2899E5210DE3E06400AC0155 /* OneNodeViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -203,7 +200,6 @@
 				7E1E50AE16A90E94000C8324 /* logoSmall.png in Resources */,
 				7E1E50B116A90E9F000C8324 /* logoRetina.png in Resources */,
 				7E1E50B316A9200D000C8324 /* mayim_mayim.wav in Resources */,
-				7E2EF84216A946B30000C305 /* midnight-ride.wav in Resources */,
 				7E15553D16C2524D00989E88 /* midnight-ride.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
